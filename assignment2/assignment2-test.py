@@ -22,16 +22,15 @@ def test_employee_find():
     assert len(match[0]) == 4
 
 def test_employee_find_2():
-    # match = a2.employee_find_2(4)
-    match = a2.employee_find(4)
+    match = a2.employee_find_2(4)
     assert match[0][0] == "4"
     assert len(match[0]) == 4
-#
+
 # def test_sort_by_last_name():
 #     rows = a2.sort_by_last_name()
 #     assert len(rows) == 20
 #     assert rows[0][2]== "Bowman"
-#
+
 # def test_employee_dict():
 #     dict_result = a2.employee_dict(a2.employees["rows"][0])
 #     assert dict_result["last_name"] == "Bowman"

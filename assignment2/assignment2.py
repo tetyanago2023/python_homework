@@ -42,7 +42,6 @@ def first_name(row_number):
     first_name_index = column_index("first_name")
     return employees["rows"][row_number][first_name_index]
 
-
 # Task 5
 def employee_find(employee_id):
     """Finds and returns rows with the matching employee_id."""
@@ -51,6 +50,12 @@ def employee_find(employee_id):
         return int(row[employee_id_column]) == employee_id
 
     matches = list(filter(employee_match, employees["rows"]))
+    return matches
+
+# Task 6
+def employee_find_2(employee_id):
+    """Finds and returns rows with the matching employee_id using a lambda function."""
+    matches = list(filter(lambda row: int(row[employee_id_column]) == employee_id, employees["rows"]))
     return matches
 
 
