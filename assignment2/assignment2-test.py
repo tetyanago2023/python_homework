@@ -3,15 +3,15 @@ import os
 
 def test_read_employees():
     employees = a2.read_employees()
-    assert employees != None
-    assert a2.employees != None
+    assert employees is not None
+    assert a2.employees is not None
     assert len(a2.employees["fields"]) == 4
     assert a2.employees["fields"][1] == "first_name"
     assert len(a2.employees["rows"]) == 20
 
 def test_column_name():
     assert a2.column_index("last_name") == 2
-    assert a2.employee_id_column != None
+    assert a2.employee_id_column is not None
 
 def test_first_name():
     assert a2.first_name(2) in ("David","Lauren") # values before and after sort
