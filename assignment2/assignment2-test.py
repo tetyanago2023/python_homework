@@ -55,12 +55,12 @@ def test_read_minutes():
     assert d2["rows"][2] == ("Sarah Murray","November 19, 1988")
     assert a2.minutes1 is not None
 
-# def test_create_minutes_set():
-#     minutes_set = a2.create_minutes_set()
-#     assert type(minutes_set).__name__ == "set"
-#     assert len(minutes_set) == 46
-#     assert a2.minutes_set != None
-#
+def test_create_minutes_set():
+    minutes_set = a2.create_minutes_set()
+    assert type(minutes_set).__name__ == "set"
+    assert len(minutes_set) == 46
+    assert a2.minutes_set is not None
+
 # def test_create_minutes_list():
 #     minutes_list = a2.create_minutes_list()
 #     assert type(minutes_list[0][1]).__name__ == "datetime"
