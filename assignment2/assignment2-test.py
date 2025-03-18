@@ -44,11 +44,11 @@ def test_all_employees_dict():
 def test_get_this_value():
     assert a2.get_this_value() == "ABC"
 
-# def test_set_that_secret():
-#     import custom_module
-#     a2.set_that_secret("swordfish")
-#     assert custom_module.secret == "swordfish"
-#
+def test_set_that_secret():
+    import custom_module
+    a2.set_that_secret("swordfish")
+    assert custom_module.secret == "swordfish"
+
 # def test_read_minutes():
 #     d1, d2 = a2.read_minutes()
 #     assert d1["rows"][1] == ("Tony Henderson","November 15, 1991")

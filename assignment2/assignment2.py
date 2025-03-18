@@ -3,6 +3,7 @@
 import csv
 import sys
 import os
+import custom_module
 
 
 # Task 2
@@ -88,6 +89,10 @@ def get_this_value():
     """Returns the value of the THISVALUE environment variable."""
     return os.getenv("THISVALUE")
 
+# Task 11
+def set_that_secret(new_secret):
+    custom_module.set_secret(new_secret)
+
 
 # Call the function and store the result in a global variable
 employees = read_employees()
@@ -104,3 +109,7 @@ print(all_employees_dict())
 
 # Test Task 10
 print(get_this_value())
+
+# Test Task 11
+set_that_secret("abracadabra")
+print(custom_module.secret)  # Should print "abracadabra"
