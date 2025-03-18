@@ -49,12 +49,12 @@ def test_set_that_secret():
     a2.set_that_secret("swordfish")
     assert custom_module.secret == "swordfish"
 
-# def test_read_minutes():
-#     d1, d2 = a2.read_minutes()
-#     assert d1["rows"][1] == ("Tony Henderson","November 15, 1991")
-#     assert d2["rows"][2] == ("Sarah Murray","November 19, 1988")
-#     assert a2.minutes1 != None
-#
+def test_read_minutes():
+    d1, d2 = a2.read_minutes()
+    assert d1["rows"][1] == ("Tony Henderson","November 15, 1991")
+    assert d2["rows"][2] == ("Sarah Murray","November 19, 1988")
+    assert a2.minutes1 is not None
+
 # def test_create_minutes_set():
 #     minutes_set = a2.create_minutes_set()
 #     assert type(minutes_set).__name__ == "set"

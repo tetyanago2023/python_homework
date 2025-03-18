@@ -93,6 +93,28 @@ def get_this_value():
 def set_that_secret(new_secret):
     custom_module.set_secret(new_secret)
 
+# Task 12
+def read_minutes():
+    """Reads minutes1.csv and minutes2.csv and returns two dictionaries with data stored as tuples."""
+
+    def read_csv(file_path):
+        minutes_data = {"fields": [], "rows": []}
+        try:
+            with open(file_path, newline="", encoding="utf-8") as csvfile:
+                reader = csv.reader(csvfile)
+                for index, row in enumerate(reader):
+                    if index == 0:
+                        minutes_data["fields"] = row  # Store headers
+                    else:
+                        minutes_data["rows"].append(tuple(row))  # Store rows as tuples
+        except Exception as e:
+            print(f"Error reading file {file_path}: {e}")
+            sys.exit(1)
+        return minutes_data
+
+    minutes1 = read_csv("../csv/minutes1.csv")
+    minutes2 = read_csv("../csv/minutes2.csv")
+    return minutes1, minutes2
 
 # Call the function and store the result in a global variable
 employees = read_employees()
@@ -113,3 +135,8 @@ print(get_this_value())
 # Test Task 11
 set_that_secret("abracadabra")
 print(custom_module.secret)  # Should print "abracadabra"
+
+# Test Task 12
+minutes1, minutes2 = read_minutes()
+print(minutes1)
+print(minutes2)
