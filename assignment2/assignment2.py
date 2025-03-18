@@ -2,11 +2,13 @@
 
 import csv
 import sys
+import os
 
-#Task 2
+
+# Task 2
 def read_employees():
     """Reads employee data from a CSV file and returns a dictionary
-        with 'fields' as column headers and 'rows' as employee data."""
+    with 'fields' as column headers and 'rows' as employee data."""
     employees_data = {"fields": [], "rows": []}
     file_path = "../csv/employees.csv"
 
@@ -27,20 +29,19 @@ def read_employees():
 
     return employees_data
 
-# Task 3: Find Column Index
+
+# Task 3
 def column_index(column_name):
-    """Returns the index of the requested column name in employees['fields']."""
-    try:
-        return employees["fields"].index(column_name)
-    except ValueError:
-        print(f"Error: Column '{column_name}' not found in the CSV file.")
-        sys.exit(1)
+    """Returns the index of the given column name in employees["fields"]."""
+    return employees["fields"].index(column_name)
+
 
 # Task 4
 def first_name(row_number):
     """Returns the first name from the given row number in employees["rows"]."""
     first_name_index = column_index("first_name")
     return employees["rows"][row_number][first_name_index]
+
 
 # Task 5
 def employee_find(employee_id):
@@ -52,11 +53,13 @@ def employee_find(employee_id):
     matches = list(filter(employee_match, employees["rows"]))
     return matches
 
+
 # Task 6
 def employee_find_2(employee_id):
     """Finds and returns rows with the matching employee_id using a lambda function."""
     matches = list(filter(lambda row: int(row[employee_id_column]) == employee_id, employees["rows"]))
     return matches
+
 
 # Task 7
 def sort_by_last_name():
@@ -65,6 +68,7 @@ def sort_by_last_name():
     employees["rows"].sort(key=lambda row: row[last_name_index])
     return employees["rows"]
 
+
 # Task 8
 def employee_dict(row):
     """Creates a dictionary for an employee from a given row, excluding employee_id."""
@@ -72,10 +76,18 @@ def employee_dict(row):
     employee_data = row[1:]  # Skip employee_id value
     return dict(zip(field_names, employee_data))
 
+
 # Task 9
 def all_employees_dict():
     """Creates a dictionary of all employees with employee_id as keys and employee_dict as values."""
     return {row[0]: employee_dict(row) for row in employees["rows"]}
+
+
+# Task 10
+def get_this_value():
+    """Returns the value of the THISVALUE environment variable."""
+    return os.getenv("THISVALUE")
+
 
 # Call the function and store the result in a global variable
 employees = read_employees()
@@ -89,3 +101,6 @@ print(employee_dict(employees["rows"][0]))
 
 # Test Task 9
 print(all_employees_dict())
+
+# Test Task 10
+print(get_this_value())

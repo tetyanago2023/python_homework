@@ -40,10 +40,10 @@ def test_all_employees_dict():
     dict_result = a2.all_employees_dict()
     assert len(dict_result.keys()) == 20
     assert dict_result["9"]["first_name"] == "Phillip"
-#
-# def test_get_this_value():
-#     assert a2.get_this_value() == "ABC"
-#
+
+def test_get_this_value():
+    assert a2.get_this_value() == "ABC"
+
 # def test_set_that_secret():
 #     import custom_module
 #     a2.set_that_secret("swordfish")
