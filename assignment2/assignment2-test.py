@@ -31,10 +31,10 @@ def test_sort_by_last_name():
     assert len(rows) == 20
     assert rows[0][2]== "Bowman"
 
-# def test_employee_dict():
-#     dict_result = a2.employee_dict(a2.employees["rows"][0])
-#     assert dict_result["last_name"] == "Bowman"
-#     assert "employee_id" not in dict_result.keys()
+def test_employee_dict():
+    dict_result = a2.employee_dict(a2.employees["rows"][0])
+    assert dict_result["last_name"] == "Bowman"
+    assert "employee_id" not in dict_result.keys()
 #
 # def test_all_employees_dict():
 #     dict_result = a2.all_employees_dict()

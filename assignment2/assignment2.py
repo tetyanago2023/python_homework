@@ -65,11 +65,19 @@ def sort_by_last_name():
     employees["rows"].sort(key=lambda row: row[last_name_index])
     return employees["rows"]
 
-
+# Task 8
+def employee_dict(row):
+    """Creates a dictionary for an employee from a given row, excluding employee_id."""
+    field_names = employees["fields"][1:]  # Skip employee_id
+    employee_data = row[1:]  # Skip employee_id value
+    return dict(zip(field_names, employee_data))
 
 # Call the function and store the result in a global variable
 employees = read_employees()
-# Store employee_id column index globally
+print(employees)
+
+# Store the column index for employee_id
 employee_id_column = column_index("employee_id")
 
-print(employees)
+# Test Task 8
+print(employee_dict(employees["rows"][0]))
