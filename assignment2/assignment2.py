@@ -72,6 +72,11 @@ def employee_dict(row):
     employee_data = row[1:]  # Skip employee_id value
     return dict(zip(field_names, employee_data))
 
+# Task 9
+def all_employees_dict():
+    """Creates a dictionary of all employees with employee_id as keys and employee_dict as values."""
+    return {row[0]: employee_dict(row) for row in employees["rows"]}
+
 # Call the function and store the result in a global variable
 employees = read_employees()
 print(employees)
@@ -81,3 +86,6 @@ employee_id_column = column_index("employee_id")
 
 # Test Task 8
 print(employee_dict(employees["rows"][0]))
+
+# Test Task 9
+print(all_employees_dict())

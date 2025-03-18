@@ -35,11 +35,11 @@ def test_employee_dict():
     dict_result = a2.employee_dict(a2.employees["rows"][0])
     assert dict_result["last_name"] == "Bowman"
     assert "employee_id" not in dict_result.keys()
-#
-# def test_all_employees_dict():
-#     dict_result = a2.all_employees_dict()
-#     assert len(dict_result.keys()) == 20
-#     assert dict_result["9"]["first_name"] == "Phillip"
+
+def test_all_employees_dict():
+    dict_result = a2.all_employees_dict()
+    assert len(dict_result.keys()) == 20
+    assert dict_result["9"]["first_name"] == "Phillip"
 #
 # def test_get_this_value():
 #     assert a2.get_this_value() == "ABC"
