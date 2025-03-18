@@ -5,6 +5,8 @@ import sys
 
 #Task 2
 def read_employees():
+    """Reads employee data from a CSV file and returns a dictionary
+        with 'fields' as column headers and 'rows' as employee data."""
     employees_data = {"fields": [], "rows": []}
     file_path = "../csv/employees.csv"
 
@@ -33,6 +35,24 @@ def column_index(column_name):
     except ValueError:
         print(f"Error: Column '{column_name}' not found in the CSV file.")
         sys.exit(1)
+
+# Task 4
+def first_name(row_number):
+    """Returns the first name from the given row number in employees["rows"]."""
+    first_name_index = column_index("first_name")
+    return employees["rows"][row_number][first_name_index]
+
+
+# Task 5
+def employee_find(employee_id):
+    """Finds and returns rows with the matching employee_id."""
+
+    def employee_match(row):
+        return int(row[employee_id_column]) == employee_id
+
+    matches = list(filter(employee_match, employees["rows"]))
+    return matches
+
 
 # Call the function and store the result in a global variable
 employees = read_employees()
