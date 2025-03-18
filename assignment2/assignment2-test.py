@@ -61,12 +61,12 @@ def test_create_minutes_set():
     assert len(minutes_set) == 46
     assert a2.minutes_set is not None
 
-# def test_create_minutes_list():
-#     minutes_list = a2.create_minutes_list()
-#     assert type(minutes_list[0][1]).__name__ == "datetime"
-#     assert type(minutes_list[0]).__name__ == "tuple"
-#     assert a2.minutes_list != None
-#
+def test_create_minutes_list():
+    minutes_list = a2.create_minutes_list()
+    assert type(minutes_list[0][1]).__name__ == "datetime"
+    assert type(minutes_list[0]).__name__ == "tuple"
+    assert a2.minutes_list is not None
+
 # def test_write_sorted_list():
 #     sorted_list = a2.write_sorted_list()
 #     assert sorted_list[0] == ("Jason Tucker","September 20, 1980")

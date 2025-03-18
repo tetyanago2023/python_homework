@@ -4,6 +4,7 @@ import csv
 import sys
 import os
 import custom_module
+from datetime import datetime
 
 
 # Task 2
@@ -123,6 +124,11 @@ def create_minutes_set():
     set2 = set(minutes2["rows"])
     return set1.union(set2)
 
+# Task 14
+def create_minutes_list():
+    """Converts minutes_set to a list and converts the date string to a datetime object."""
+    return list(map(lambda x: (x[0], datetime.strptime(x[1], "%B %d, %Y")), minutes_set))
+
 # Call the function and store the result in a global variable
 employees = read_employees()
 print(employees)
@@ -151,3 +157,7 @@ print(minutes2)
 # Test Task 13
 minutes_set = create_minutes_set()
 print(minutes_set)
+
+# Test Task 14
+minutes_list = create_minutes_list()
+print(minutes_list)
