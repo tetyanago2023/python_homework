@@ -31,19 +31,16 @@ def read_employees():
 
     return employees_data
 
-
 # Task 3
 def column_index(column_name):
     """Returns the index of the given column name in employees["fields"]."""
     return employees["fields"].index(column_name)
-
 
 # Task 4
 def first_name(row_number):
     """Returns the first name from the given row number in employees["rows"]."""
     first_name_index = column_index("first_name")
     return employees["rows"][row_number][first_name_index]
-
 
 # Task 5
 def employee_find(employee_id):
@@ -55,13 +52,11 @@ def employee_find(employee_id):
     matches = list(filter(employee_match, employees["rows"]))
     return matches
 
-
 # Task 6
 def employee_find_2(employee_id):
     """Finds and returns rows with the matching employee_id using a lambda function."""
     matches = list(filter(lambda row: int(row[employee_id_column]) == employee_id, employees["rows"]))
     return matches
-
 
 # Task 7
 def sort_by_last_name():
@@ -70,7 +65,6 @@ def sort_by_last_name():
     employees["rows"].sort(key=lambda row: row[last_name_index])
     return employees["rows"]
 
-
 # Task 8
 def employee_dict(row):
     """Creates a dictionary for an employee from a given row, excluding employee_id."""
@@ -78,12 +72,10 @@ def employee_dict(row):
     employee_data = row[1:]  # Skip employee_id value
     return dict(zip(field_names, employee_data))
 
-
 # Task 9
 def all_employees_dict():
     """Creates a dictionary of all employees with employee_id as keys and employee_dict as values."""
     return {row[0]: employee_dict(row) for row in employees["rows"]}
-
 
 # Task 10
 def get_this_value():
@@ -129,7 +121,35 @@ def create_minutes_list():
     """Converts minutes_set to a list and converts the date string to a datetime object."""
     return list(map(lambda x: (x[0], datetime.strptime(x[1], "%B %d, %Y")), minutes_set))
 
-# Call the function and store the result in a global variable
+# Task 15
+def write_sorted_list():
+    """Sorts minutes_list by date, converts datetime back to string, and writes to a CSV file."""
+
+    # Sort by datetime (second element in the tuple)
+    sorted_list = sorted(minutes_list, key=lambda x: x[1])
+
+    # Convert datetime back to string
+    formatted_list = list(map(lambda x: (x[0], x[1].strftime("%B %d, %Y")), sorted_list))
+
+    # Write to CSV file
+    file_path = "./minutes.csv"
+    try:
+        with open(file_path, mode="w", newline="", encoding="utf-8") as csvfile:
+            writer = csv.writer(csvfile)
+
+            # Write the header from minutes1 dict
+            writer.writerow(minutes1["fields"])
+
+            # Write the sorted and formatted rows
+            writer.writerows(formatted_list)
+
+        print(f"File '{file_path}' successfully written!")
+    except Exception as e:
+        print(f"Error writing file {file_path}: {e}")
+
+    return formatted_list
+
+# Task 2
 employees = read_employees()
 print(employees)
 
@@ -161,3 +181,7 @@ print(minutes_set)
 # Test Task 14
 minutes_list = create_minutes_list()
 print(minutes_list)
+
+# Test Task 15
+sorted_minutes_list = write_sorted_list()
+print(sorted_minutes_list)
