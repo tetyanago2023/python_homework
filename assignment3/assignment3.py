@@ -49,5 +49,20 @@ more_employees = pd.concat([task2_employees, json_employees], ignore_index=True)
 print("Combined DataFrame:\n", more_employees)
 
 
+# Task 3.1
+first_three = more_employees.head(3)
+print("First three rows of more_employees:\n", first_three)
+
+# Task 3.2
+last_two = more_employees.tail(2)
+print("Last two rows of more_employees:\n", last_two)
+
+# Task 3.3
+employee_shape = more_employees.shape
+print("\nShape of more_employees DataFrame:", employee_shape)
+
+# Task 3.4
+print(more_employees.info())
+
 
 

@@ -42,16 +42,16 @@ def test_concat_json_employees():
     assert a3.more_employees.shape == (5, 4)
 
 
-# # Task 3
-# def test_head():
-#     assert a3.first_three.equals(a3.more_employees.head(3))
-#
-# def test_tail():
-#     assert a3.last_two.equals(a3.more_employees.tail(2))
-#
-# def test_shape():
-#     assert a3.employee_shape == (5, 4)
-#
+# Task 3
+def test_head():
+    assert a3.first_three.equals(a3.more_employees.head(3))
+
+def test_tail():
+    assert a3.last_two.equals(a3.more_employees.tail(2))
+
+def test_shape():
+    assert a3.employee_shape == (5, 4)
+
 #
 # # Task 4
 # from io import StringIO
