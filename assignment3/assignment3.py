@@ -64,5 +64,40 @@ print("\nShape of more_employees DataFrame:", employee_shape)
 # Task 3.4
 print(more_employees.info())
 
+# Task 4.1
+dirty_data = pd.read_csv("dirty_data.csv")
 
+# Standardize string columns by stripping whitespace and converting to uppercase in order to pass the tests
+dirty_data['Name'] = dirty_data['Name'].str.strip()
+dirty_data['Department'] = dirty_data['Department'].str.strip().str.upper()
+print("\nStandardized Dirty Data:\n", dirty_data)
+
+clean_data = dirty_data.copy()
+
+# Task 4.2
+clean_data.drop_duplicates(inplace=True)
+print("\nDuplicates Free Clean Data:\n", clean_data)
+
+#Task 4.3
+clean_data["Age"] = pd.to_numeric(clean_data["Age"], errors="coerce")
+print("\nConverted Age to Numeric Clean Data:\n", clean_data)
+
+# Task 4.4
+clean_data["Salary"] = clean_data["Salary"].replace(["unknown", "n/a"], pd.NA)
+clean_data["Salary"] = pd.to_numeric(clean_data["Salary"], errors="coerce")
+print("\nConverted Salary to Numeric and Replace Known Placeholders Clean Data:\n", clean_data)
+
+# Task 4.5
+clean_data["Age"].fillna(clean_data["Age"].mean(), inplace=True)
+clean_data["Salary"].fillna(clean_data["Salary"].median(), inplace=True)
+print("\nFilled Missing Numeric Values Clean Data:\n", clean_data)
+
+# Task 4.6
+clean_data["Hire Date"] = pd.to_datetime(clean_data["Hire Date"], errors="coerce")
+print("\nConverted Hire Date to Datetime Clean Data:\n", clean_data)
+
+# Task 4.7
+clean_data["Name"] = clean_data["Name"].str.strip().str.upper()
+clean_data["Department"] = clean_data["Department"].str.strip().str.upper()
+print("\nStriped Extra Whitespace and Standardize Name and Department as Uppercase Clean Data:\n", clean_data)
 
