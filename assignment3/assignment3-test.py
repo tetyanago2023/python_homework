@@ -24,24 +24,24 @@ def test_write_csv():
 
 
 
-# # Task 2
-# def test_read_data_frame_from_csv():
-#     assert a3.task1_older.equals(a3.task2_employees)
-#
-# test2_json_df = pd.DataFrame({ 'Name': ['Eve', 'Frank'],
-#                                 'Age': [28, 40],
-#                                 'City': ['Miami', 'Seattle'],
-#                                 'Salary': [60000, 95000]})
-#
-# def test_read_data_frame_from_json():
-#     assert os.access("./additional_employees.json", os.F_OK) == True
-#     assert a3.json_employees.equals(test2_json_df)
-#
-# def test_concat_json_employees():
-#     assert a3.more_employees.equals(pd.concat([a3.task2_employees, a3.json_employees], ignore_index=True))
-#     assert a3.more_employees.shape == (5, 4)
-#
-#
+# Task 2
+def test_read_data_frame_from_csv():
+    assert a3.task1_older.equals(a3.task2_employees)
+
+test2_json_df = pd.DataFrame({ 'Name': ['Eve', 'Frank'],
+                                'Age': [28, 40],
+                                'City': ['Miami', 'Seattle'],
+                                'Salary': [60000, 95000]})
+
+def test_read_data_frame_from_json():
+    assert os.access("./additional_employees.json", os.F_OK) == True
+    assert a3.json_employees.equals(test2_json_df)
+
+def test_concat_json_employees():
+    assert a3.more_employees.equals(pd.concat([a3.task2_employees, a3.json_employees], ignore_index=True))
+    assert a3.more_employees.shape == (5, 4)
+
+
 # # Task 3
 # def test_head():
 #     assert a3.first_three.equals(a3.more_employees.head(3))

@@ -1,6 +1,7 @@
 # assignment3.py
 
 import pandas as pd
+import json
 
 # Task 1.1
 data = {
@@ -25,4 +26,28 @@ task1_older.to_csv("employees.csv", index=False)
 print(task1_data_frame)
 print(task1_with_salary)
 print(task1_older)
+
+# Task 2.1
+task2_employees = pd.read_csv("employees.csv")
+print("Loaded CSV Data:\n", task2_employees)
+
+# Task 2.2
+additional_employees = [
+    {"Name": "Eve", "Age": 28, "City": "Miami", "Salary": 60000},
+    {"Name": "Frank", "Age": 40, "City": "Seattle", "Salary": 95000} # Fix: Age corrected to 40 for test match
+]
+
+with open("additional_employees.json", "w") as json_file:
+    json.dump(additional_employees, json_file, indent=4)
+
+# Task  2.3
+json_employees = pd.read_json("additional_employees.json")
+print("Loaded JSON Data:\n", json_employees)
+
+# Task 2.4
+more_employees = pd.concat([task2_employees, json_employees], ignore_index=True)
+print("Combined DataFrame:\n", more_employees)
+
+
+
 
