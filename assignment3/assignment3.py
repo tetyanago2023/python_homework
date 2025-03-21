@@ -5,7 +5,7 @@ import json
 
 # Task 1.1
 data = {
-    "Name": ["Alice", "Bob", "charlie"],  # Ensure 'charlie' is lowercase in order to follow test-file content re 'charlie'
+    "Name": ["Alice", "Bob", "Charlie"],
     "Age": [25, 30, 35],
     "City": ["New York", "Los Angeles", "Chicago"]
 }
