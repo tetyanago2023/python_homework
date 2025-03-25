@@ -31,6 +31,16 @@ query2 = """
     LIMIT 5;
 """
 
+# Task 4: Aggregation with HAVING
+# Query 3: Retrieve the total price of orders with more than 3 line items
+query3 = """
+    SELECT e.employee_id, e.first_name, e.last_name, COUNT(o.order_id) AS order_count
+    FROM employees e
+    JOIN orders o ON e.employee_id = o.employee_id
+    GROUP BY e.employee_id
+    HAVING COUNT(o.order_id) > 5;
+"""
+
 # Task 3: An Insert Transaction Based on Data
 # Insert a new order for 'Perez and Sons' with the 5 least expensive products
 def insert_order():
@@ -98,8 +108,18 @@ def fetch_new_order_details():
         print("\nNew Order Line Items:")
         for row in results:
             print(row)
+# Task 4
+def fetch_employees_with_more_than_5_orders():
+    with sqlite3.connect(db_path) as conn:
+        cursor = conn.cursor()
+        cursor.execute(query3)
+        results = cursor.fetchall()
+        print("\nEmployees with More Than 5 Orders:")
+        for row in results:
+            print(row)
 
 if __name__ == "__main__":
     insert_order()
     fetch_data()
     fetch_new_order_details()
+    fetch_employees_with_more_than_5_orders()
