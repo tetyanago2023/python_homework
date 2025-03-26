@@ -1,0 +1,53 @@
+List of Bold Text:
+needs additional citations for verification
+·
+·
+·
+·
+Web scraping
+web harvesting
+web data extraction
+deal primarily with the United States and do not represent a worldwide view of the subject
+^
+20
+^
+^
+^
+^
+^
+^
+29
+^
+^
+^
+^
+^
+^
+^
+^
+^
+^
+^
+^
+^
+^
+^
+^
+^
+^
+^
+^
+^
+^
+^
+^
+
+List of Image Sources:
+/static/images/icons/wikipedia.png
+/static/images/mobile/copyright/wikipedia-wordmark-en.svg
+/static/images/mobile/copyright/wikipedia-tagline-en.svg
+//upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/50px-Question_book-new.svg.png
+//upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Ambox_globe_content.svg/48px-Ambox_globe_content.svg.png
+https://login.wikimedia.org/wiki/Special:CentralAutoLogin/start?useformat=desktop&type=1x1&usesul3=0
+/static/images/footer/wikimedia.svg
+/w/resources/assets/mediawiki_compact.svg
