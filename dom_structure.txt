@@ -1,0 +1,33 @@
+Task 1: Understanding HTML and the DOM
+
+The Wikipedia page for "Web Scraping" follows a structured Document Object Model (DOM) hierarchy:
+
+1. **Title Element:**
+   - Located within the `<head>` section:
+   - `<title>Web scraping - Wikipedia</title>`
+
+2. **First Paragraph Structure:**
+   - Wrapped in a `<p>` tag inside `<div class="mw-parser-output">`
+   - Contains:
+     - `<b>` tags for bold text (e.g., "Web scraping")
+     - `<a>` tags with `href` attributes for links (e.g., `<a href="/wiki/Data_scraping" title="Data scraping">`)
+     - `<sup>` tag for citation references (e.g., `<sup id="cite_ref-1" class="reference">`)
+
+3. **Header Elements:**
+   - `<h1>` for the article title (`Web scraping`)
+   - `<h2>` for main sections
+   - `<h3>` for subsections
+
+4. **Links:**
+   - Implemented using `<a>` tags with `href` attributes.
+   - Internal Wikipedia links follow the format `<a href="/wiki/..."`.
+   - Some links have `class="mw-redirect"` for redirects.
+
+5. **Parent-Child Relationships:**
+   - `<body>` contains a `<div id="content">` wrapper.
+   - The main article content is within `<div class="mw-body">`.
+   - The text and paragraphs are inside `<div class="mw-parser-output">`.
+
+This structure ensures clear organization, easy navigation, and semantic markup.
+
+Please refer to `1st_paragraph_structure.png` and `1st_paragraph_view.png` for visual representations of the first paragraph structure.
