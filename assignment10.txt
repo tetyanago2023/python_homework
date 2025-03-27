@@ -4,3 +4,30 @@ Total unique headers: 6
 Total unique links: 45
 Most common header: ('Contents', 50)
 Most common link: ('/wiki/Main_Page', 12)
+
+--------------------------------------
+Task 5: Optimizing Data Storage
+--------------------------------------
+
+Comparison: SQLite vs. MongoDB
+
+| Feature              | SQLite (Relational)                          | MongoDB (Non-Relational)               |
+|----------------------|--------------------------------|--------------------------------|
+| **Data Structure**   | Tables with rows and columns (structured schema) | Collections of documents (flexible schema) |
+| **Storage Type**     | Disk-based, single-file database | Distributed, document-based storage |
+| **Scalability**      | Limited scalability (local storage) | High scalability (distributed systems) |
+| **Performance**      | Fast for small datasets | Better for handling large-scale data |
+| **Complex Queries**  | Supports SQL queries and joins | Uses flexible JSON-like queries |
+| **Transactions**     | ACID-compliant, supports transactions | Supports atomic operations, but not full ACID compliance |
+| **Ease of Use**      | Lightweight, easy to set up | Requires database server setup |
+| **Best Use Case**    | Small-scale projects, prototyping, offline apps | Large-scale applications, big data, real-time analytics |
+
+--------------------------------------
+Comparison: SQLite vs. MongoDB
+
+- SQLite is a lightweight relational database that stores data in structured tables. It is easy to use and works well for small-scale projects.
+- MongoDB is a NoSQL database that stores data in flexible JSON-like documents. It scales better for large-scale applications.
+
+Recommendations:
+- For small-scale Wikipedia scraping: SQLite is sufficient due to its simplicity and efficiency.
+- For large-scale scraping with millions of records: MongoDB is preferred due to its scalability and distributed nature.
