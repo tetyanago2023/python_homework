@@ -1,0 +1,6 @@
+Data Analysis Report:
+----------------------
+Total unique headers: 6
+Total unique links: 45
+Most common header: ('Contents', 50)
+Most common link: ('/wiki/Main_Page', 12)
