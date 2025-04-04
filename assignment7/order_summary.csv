@@ -1,0 +1,1128 @@
+line_item_id,quantity,product_id,product_name,price,total
+1,6,45,Handcrafted Wooden Fish,8.95,53.70
+2,20,49,Steel Sausages,5.35,107.00
+3,11,51,Pants,9.89,108.79
+4,17,54,Licensed Plastic Bike,9.30,158.10
+5,7,51,Pants,9.89,69.23
+6,2,6,Cotton Bike,8.34,16.68
+7,6,41,Practical Steel Towels,4.49,26.94
+8,5,37,Frozen Computer,2.26,11.30
+9,16,24,Plastic Pants,6.62,105.92
+10,18,26,Unbranded Chicken,4.86,87.48
+11,5,51,Pants,9.89,49.45
+12,18,39,Unbranded Wooden Hat,6.36,114.48
+13,20,52,Rubber Towels,4.72,94.40
+14,16,34,Concrete Pants,8.52,136.32
+15,6,26,Unbranded Chicken,4.86,29.16
+16,14,34,Concrete Pants,8.52,119.28
+17,19,45,Handcrafted Wooden Fish,8.95,170.05
+18,14,29,For repair Fresh Fish,9.26,129.64
+19,14,4,Ergonomic Wooden Soap,8.99,125.86
+20,9,24,Plastic Pants,6.62,59.58
+21,1,13,Soft Pizza,1.81,1.81
+22,11,58,Intelligent Chips,7.69,84.59
+23,11,47,Tuna,9.72,106.92
+24,7,14,Handcrafted Hat,3.55,24.85
+25,9,6,Cotton Bike,8.34,75.06
+26,15,54,Licensed Plastic Bike,9.30,139.50
+27,12,9,Unbranded Wooden Keyboard,0.83,9.96
+28,14,35,Practical Fish,8.83,123.62
+29,6,6,Cotton Bike,8.34,50.04
+30,18,1,Fantastic Shoes,2.25,40.50
+31,1,51,Pants,9.89,9.89
+32,1,35,Practical Fish,8.83,8.83
+33,3,45,Handcrafted Wooden Fish,8.95,26.85
+34,5,2,For repair Soft Table,5.19,25.95
+35,5,15,Small Fish,1.34,6.70
+36,16,9,Unbranded Wooden Keyboard,0.83,13.28
+37,7,1,Fantastic Shoes,2.25,15.75
+38,7,36,Sleek Concrete Cheese,3.92,27.44
+39,16,2,For repair Soft Table,5.19,83.04
+40,19,15,Small Fish,1.34,25.46
+41,12,4,Ergonomic Wooden Soap,8.99,107.88
+42,14,36,Sleek Concrete Cheese,3.92,54.88
+43,14,45,Handcrafted Wooden Fish,8.95,125.30
+44,16,44,Practical Tuna,1.00,16.00
+45,13,21,Steel Car,9.18,119.34
+46,9,2,For repair Soft Table,5.19,46.71
+47,12,20,Licensed Cheese,3.93,47.16
+48,8,33,Steel Computer,7.42,59.36
+49,19,38,Wooden Mouse,5.04,95.76
+50,1,12,Mouse,6.42,6.42
+51,16,58,Intelligent Chips,7.69,123.04
+52,19,34,Concrete Pants,8.52,161.88
+53,5,14,Handcrafted Hat,3.55,17.75
+54,19,49,Steel Sausages,5.35,101.65
+55,11,15,Small Fish,1.34,14.74
+56,16,47,Tuna,9.72,155.52
+57,11,57,New Fresh Chips,7.73,85.03
+58,5,5,Wooden Shoes,8.22,41.10
+59,14,2,For repair Soft Table,5.19,72.66
+60,18,6,Cotton Bike,8.34,150.12
+61,18,55,Chair,3.62,65.16
+62,10,15,Small Fish,1.34,13.40
+63,9,26,Unbranded Chicken,4.86,43.74
+64,1,2,For repair Soft Table,5.19,5.19
+65,4,52,Rubber Towels,4.72,18.88
+66,5,19,Hat,6.92,34.60
+67,20,50,Fantastic Fish,9.59,191.80
+68,17,35,Practical Fish,8.83,150.11
+69,5,12,Mouse,6.42,32.10
+70,13,40,Cotton Ball,6.59,85.67
+71,14,15,Small Fish,1.34,18.76
+72,10,25,Incredible Hat,1.92,19.20
+73,7,43,Salad,0.53,3.71
+74,7,7,Sleek Granite Car,9.03,63.21
+75,3,51,Pants,9.89,29.67
+76,3,36,Sleek Concrete Cheese,3.92,11.76
+77,17,2,For repair Soft Table,5.19,88.23
+78,15,59,Ball,8.45,126.75
+79,12,28,Concrete Gloves,5.71,68.52
+80,4,40,Cotton Ball,6.59,26.36
+81,20,43,Salad,0.53,10.60
+82,13,41,Practical Steel Towels,4.49,58.37
+83,5,35,Practical Fish,8.83,44.15
+84,16,50,Fantastic Fish,9.59,153.44
+85,1,1,Fantastic Shoes,2.25,2.25
+86,5,29,For repair Fresh Fish,9.26,46.30
+87,3,43,Salad,0.53,1.59
+88,11,36,Sleek Concrete Cheese,3.92,43.12
+89,18,49,Steel Sausages,5.35,96.30
+90,5,14,Handcrafted Hat,3.55,17.75
+91,7,13,Soft Pizza,1.81,12.67
+92,10,24,Plastic Pants,6.62,66.20
+93,6,5,Wooden Shoes,8.22,49.32
+94,14,38,Wooden Mouse,5.04,70.56
+95,5,20,Licensed Cheese,3.93,19.65
+96,5,36,Sleek Concrete Cheese,3.92,19.60
+97,14,17,Fantastic Sausages,8.10,113.40
+98,17,31,Steel Mouse,1.24,21.08
+99,7,19,Hat,6.92,48.44
+100,14,14,Handcrafted Hat,3.55,49.70
+101,9,4,Ergonomic Wooden Soap,8.99,80.91
+102,13,11,Shoes,7.13,92.69
+103,11,12,Mouse,6.42,70.62
+104,16,35,Practical Fish,8.83,141.28
+105,9,48,Rubber Mouse,7.85,70.65
+106,8,22,Small Shirt,6.81,54.48
+107,14,26,Unbranded Chicken,4.86,68.04
+108,1,30,Refined Cotton Sausages,3.78,3.78
+109,4,59,Ball,8.45,33.80
+110,8,34,Concrete Pants,8.52,68.16
+111,7,44,Practical Tuna,1.00,7.00
+112,1,28,Concrete Gloves,5.71,5.71
+113,14,4,Ergonomic Wooden Soap,8.99,125.86
+114,3,24,Plastic Pants,6.62,19.86
+115,4,10,Cotton Sausages,9.89,39.56
+116,10,51,Pants,9.89,98.90
+117,4,10,Cotton Sausages,9.89,39.56
+118,14,20,Licensed Cheese,3.93,55.02
+119,2,3,Sausages,5.42,10.84
+120,18,27,Table,2.67,48.06
+121,8,11,Shoes,7.13,57.04
+122,3,59,Ball,8.45,25.35
+123,15,42,Mouse,9.46,141.90
+124,19,2,For repair Soft Table,5.19,98.61
+125,14,9,Unbranded Wooden Keyboard,0.83,11.62
+126,16,27,Table,2.67,42.72
+127,14,26,Unbranded Chicken,4.86,68.04
+128,16,29,For repair Fresh Fish,9.26,148.16
+129,5,6,Cotton Bike,8.34,41.70
+130,16,15,Small Fish,1.34,21.44
+131,10,12,Mouse,6.42,64.20
+132,20,45,Handcrafted Wooden Fish,8.95,179.00
+133,17,11,Shoes,7.13,121.21
+134,14,47,Tuna,9.72,136.08
+135,14,3,Sausages,5.42,75.88
+136,5,36,Sleek Concrete Cheese,3.92,19.60
+137,10,42,Mouse,9.46,94.60
+138,10,28,Concrete Gloves,5.71,57.10
+139,15,42,Mouse,9.46,141.90
+140,19,53,Ergonomic Cheese,5.01,95.19
+141,11,2,For repair Soft Table,5.19,57.09
+142,17,1,Fantastic Shoes,2.25,38.25
+143,14,2,For repair Soft Table,5.19,72.66
+144,13,4,Ergonomic Wooden Soap,8.99,116.87
+145,16,34,Concrete Pants,8.52,136.32
+146,9,36,Sleek Concrete Cheese,3.92,35.28
+147,6,20,Licensed Cheese,3.93,23.58
+148,2,54,Licensed Plastic Bike,9.30,18.60
+149,13,44,Practical Tuna,1.00,13.00
+150,17,2,For repair Soft Table,5.19,88.23
+151,7,53,Ergonomic Cheese,5.01,35.07
+152,3,46,Sausages,3.79,11.37
+153,3,47,Tuna,9.72,29.16
+154,1,1,Fantastic Shoes,2.25,2.25
+155,1,26,Unbranded Chicken,4.86,4.86
+156,15,15,Small Fish,1.34,20.10
+157,20,54,Licensed Plastic Bike,9.30,186.00
+158,14,8,Concrete Cheese,1.46,20.44
+159,2,6,Cotton Bike,8.34,16.68
+160,5,25,Incredible Hat,1.92,9.60
+161,11,1,Fantastic Shoes,2.25,24.75
+162,3,29,For repair Fresh Fish,9.26,27.78
+163,7,56,Refined Ball,6.30,44.10
+164,16,59,Ball,8.45,135.20
+165,8,54,Licensed Plastic Bike,9.30,74.40
+166,20,38,Wooden Mouse,5.04,100.80
+167,19,53,Ergonomic Cheese,5.01,95.19
+168,12,41,Practical Steel Towels,4.49,53.88
+169,19,26,Unbranded Chicken,4.86,92.34
+170,20,26,Unbranded Chicken,4.86,97.20
+171,12,36,Sleek Concrete Cheese,3.92,47.04
+172,5,23,Bike,0.12,0.60
+173,10,10,Cotton Sausages,9.89,98.90
+174,4,54,Licensed Plastic Bike,9.30,37.20
+175,2,44,Practical Tuna,1.00,2.00
+176,13,4,Ergonomic Wooden Soap,8.99,116.87
+177,13,10,Cotton Sausages,9.89,128.57
+178,1,23,Bike,0.12,0.12
+179,11,57,New Fresh Chips,7.73,85.03
+180,19,22,Small Shirt,6.81,129.39
+181,10,22,Small Shirt,6.81,68.10
+182,20,53,Ergonomic Cheese,5.01,100.20
+183,14,43,Salad,0.53,7.42
+184,19,10,Cotton Sausages,9.89,187.91
+185,20,12,Mouse,6.42,128.40
+186,2,1,Fantastic Shoes,2.25,4.50
+187,10,31,Steel Mouse,1.24,12.40
+188,2,57,New Fresh Chips,7.73,15.46
+189,8,40,Cotton Ball,6.59,52.72
+190,5,51,Pants,9.89,49.45
+191,12,49,Steel Sausages,5.35,64.20
+192,19,45,Handcrafted Wooden Fish,8.95,170.05
+193,12,15,Small Fish,1.34,16.08
+194,9,31,Steel Mouse,1.24,11.16
+195,13,22,Small Shirt,6.81,88.53
+196,7,7,Sleek Granite Car,9.03,63.21
+197,6,27,Table,2.67,16.02
+198,11,24,Plastic Pants,6.62,72.82
+199,6,20,Licensed Cheese,3.93,23.58
+200,17,46,Sausages,3.79,64.43
+201,9,15,Small Fish,1.34,12.06
+202,11,1,Fantastic Shoes,2.25,24.75
+203,10,41,Practical Steel Towels,4.49,44.90
+204,9,40,Cotton Ball,6.59,59.31
+205,5,4,Ergonomic Wooden Soap,8.99,44.95
+206,6,43,Salad,0.53,3.18
+207,18,59,Ball,8.45,152.10
+208,4,25,Incredible Hat,1.92,7.68
+209,18,56,Refined Ball,6.30,113.40
+210,13,57,New Fresh Chips,7.73,100.49
+211,20,47,Tuna,9.72,194.40
+212,15,38,Wooden Mouse,5.04,75.60
+213,19,23,Bike,0.12,2.28
+214,16,20,Licensed Cheese,3.93,62.88
+215,20,3,Sausages,5.42,108.40
+216,16,42,Mouse,9.46,151.36
+217,7,4,Ergonomic Wooden Soap,8.99,62.93
+219,14,57,New Fresh Chips,7.73,108.22
+220,17,49,Steel Sausages,5.35,90.95
+221,6,39,Unbranded Wooden Hat,6.36,38.16
+222,10,16,Gorgeous Salad,9.85,98.50
+223,2,51,Pants,9.89,19.78
+224,7,48,Rubber Mouse,7.85,54.95
+225,20,49,Steel Sausages,5.35,107.00
+226,3,6,Cotton Bike,8.34,25.02
+227,18,37,Frozen Computer,2.26,40.68
+228,9,20,Licensed Cheese,3.93,35.37
+229,12,10,Cotton Sausages,9.89,118.68
+230,18,45,Handcrafted Wooden Fish,8.95,161.10
+231,16,7,Sleek Granite Car,9.03,144.48
+232,9,43,Salad,0.53,4.77
+233,16,36,Sleek Concrete Cheese,3.92,62.72
+234,15,40,Cotton Ball,6.59,98.85
+235,16,48,Rubber Mouse,7.85,125.60
+236,8,50,Fantastic Fish,9.59,76.72
+237,11,27,Table,2.67,29.37
+238,20,34,Concrete Pants,8.52,170.40
+239,16,15,Small Fish,1.34,21.44
+240,5,54,Licensed Plastic Bike,9.30,46.50
+241,11,31,Steel Mouse,1.24,13.64
+242,6,17,Fantastic Sausages,8.10,48.60
+243,5,53,Ergonomic Cheese,5.01,25.05
+244,11,17,Fantastic Sausages,8.10,89.10
+245,12,3,Sausages,5.42,65.04
+246,17,20,Licensed Cheese,3.93,66.81
+247,13,6,Cotton Bike,8.34,108.42
+248,19,37,Frozen Computer,2.26,42.94
+249,14,13,Soft Pizza,1.81,25.34
+250,1,2,For repair Soft Table,5.19,5.19
+251,8,57,New Fresh Chips,7.73,61.84
+252,13,46,Sausages,3.79,49.27
+253,10,25,Incredible Hat,1.92,19.20
+254,3,31,Steel Mouse,1.24,3.72
+255,18,7,Sleek Granite Car,9.03,162.54
+256,5,52,Rubber Towels,4.72,23.60
+257,5,20,Licensed Cheese,3.93,19.65
+258,19,38,Wooden Mouse,5.04,95.76
+259,18,48,Rubber Mouse,7.85,141.30
+260,9,19,Hat,6.92,62.28
+261,20,47,Tuna,9.72,194.40
+262,4,13,Soft Pizza,1.81,7.24
+263,20,21,Steel Car,9.18,183.60
+265,2,2,For repair Soft Table,5.19,10.38
+266,8,9,Unbranded Wooden Keyboard,0.83,6.64
+267,17,45,Handcrafted Wooden Fish,8.95,152.15
+268,12,3,Sausages,5.42,65.04
+269,3,32,Tasty Pizza,4.15,12.45
+270,7,27,Table,2.67,18.69
+272,12,56,Refined Ball,6.30,75.60
+273,5,1,Fantastic Shoes,2.25,11.25
+274,12,47,Tuna,9.72,116.64
+275,2,54,Licensed Plastic Bike,9.30,18.60
+276,1,40,Cotton Ball,6.59,6.59
+277,9,20,Licensed Cheese,3.93,35.37
+278,10,45,Handcrafted Wooden Fish,8.95,89.50
+279,7,31,Steel Mouse,1.24,8.68
+280,2,6,Cotton Bike,8.34,16.68
+281,1,3,Sausages,5.42,5.42
+282,12,54,Licensed Plastic Bike,9.30,111.60
+284,4,22,Small Shirt,6.81,27.24
+285,18,11,Shoes,7.13,128.34
+286,1,55,Chair,3.62,3.62
+287,10,42,Mouse,9.46,94.60
+288,8,35,Practical Fish,8.83,70.64
+289,12,29,For repair Fresh Fish,9.26,111.12
+290,9,42,Mouse,9.46,85.14
+291,9,54,Licensed Plastic Bike,9.30,83.70
+292,2,20,Licensed Cheese,3.93,7.86
+293,20,7,Sleek Granite Car,9.03,180.60
+294,3,32,Tasty Pizza,4.15,12.45
+295,14,14,Handcrafted Hat,3.55,49.70
+296,7,29,For repair Fresh Fish,9.26,64.82
+297,13,52,Rubber Towels,4.72,61.36
+298,15,36,Sleek Concrete Cheese,3.92,58.80
+299,20,54,Licensed Plastic Bike,9.30,186.00
+300,7,15,Small Fish,1.34,9.38
+301,15,38,Wooden Mouse,5.04,75.60
+302,11,37,Frozen Computer,2.26,24.86
+303,9,3,Sausages,5.42,48.78
+304,14,54,Licensed Plastic Bike,9.30,130.20
+305,20,23,Bike,0.12,2.40
+306,17,9,Unbranded Wooden Keyboard,0.83,14.11
+307,20,49,Steel Sausages,5.35,107.00
+308,4,31,Steel Mouse,1.24,4.96
+309,18,18,Shirt,0.23,4.14
+310,11,43,Salad,0.53,5.83
+311,6,36,Sleek Concrete Cheese,3.92,23.52
+312,14,43,Salad,0.53,7.42
+313,20,34,Concrete Pants,8.52,170.40
+314,20,19,Hat,6.92,138.40
+315,18,49,Steel Sausages,5.35,96.30
+316,13,32,Tasty Pizza,4.15,53.95
+317,10,34,Concrete Pants,8.52,85.20
+318,4,31,Steel Mouse,1.24,4.96
+319,18,32,Tasty Pizza,4.15,74.70
+320,1,43,Salad,0.53,0.53
+321,17,51,Pants,9.89,168.13
+322,11,59,Ball,8.45,92.95
+323,18,20,Licensed Cheese,3.93,70.74
+325,10,21,Steel Car,9.18,91.80
+326,6,21,Steel Car,9.18,55.08
+327,1,3,Sausages,5.42,5.42
+328,9,5,Wooden Shoes,8.22,73.98
+329,1,10,Cotton Sausages,9.89,9.89
+330,3,32,Tasty Pizza,4.15,12.45
+331,20,5,Wooden Shoes,8.22,164.40
+332,11,25,Incredible Hat,1.92,21.12
+333,11,31,Steel Mouse,1.24,13.64
+334,19,44,Practical Tuna,1.00,19.00
+335,11,4,Ergonomic Wooden Soap,8.99,98.89
+336,2,54,Licensed Plastic Bike,9.30,18.60
+337,1,5,Wooden Shoes,8.22,8.22
+338,11,15,Small Fish,1.34,14.74
+339,17,5,Wooden Shoes,8.22,139.74
+340,12,10,Cotton Sausages,9.89,118.68
+341,8,44,Practical Tuna,1.00,8.00
+342,10,9,Unbranded Wooden Keyboard,0.83,8.30
+343,12,13,Soft Pizza,1.81,21.72
+344,3,13,Soft Pizza,1.81,5.43
+345,19,1,Fantastic Shoes,2.25,42.75
+346,15,52,Rubber Towels,4.72,70.80
+347,5,34,Concrete Pants,8.52,42.60
+348,19,30,Refined Cotton Sausages,3.78,71.82
+349,12,34,Concrete Pants,8.52,102.24
+350,20,48,Rubber Mouse,7.85,157.00
+351,10,46,Sausages,3.79,37.90
+352,15,59,Ball,8.45,126.75
+353,17,26,Unbranded Chicken,4.86,82.62
+354,8,46,Sausages,3.79,30.32
+355,9,30,Refined Cotton Sausages,3.78,34.02
+356,12,12,Mouse,6.42,77.04
+357,15,9,Unbranded Wooden Keyboard,0.83,12.45
+358,5,34,Concrete Pants,8.52,42.60
+359,9,50,Fantastic Fish,9.59,86.31
+360,5,24,Plastic Pants,6.62,33.10
+361,15,53,Ergonomic Cheese,5.01,75.15
+362,13,34,Concrete Pants,8.52,110.76
+363,7,33,Steel Computer,7.42,51.94
+364,14,46,Sausages,3.79,53.06
+365,12,49,Steel Sausages,5.35,64.20
+366,6,55,Chair,3.62,21.72
+367,15,16,Gorgeous Salad,9.85,147.75
+368,16,44,Practical Tuna,1.00,16.00
+369,14,54,Licensed Plastic Bike,9.30,130.20
+370,8,27,Table,2.67,21.36
+371,16,45,Handcrafted Wooden Fish,8.95,143.20
+372,7,7,Sleek Granite Car,9.03,63.21
+373,18,40,Cotton Ball,6.59,118.62
+374,17,10,Cotton Sausages,9.89,168.13
+375,13,37,Frozen Computer,2.26,29.38
+376,20,36,Sleek Concrete Cheese,3.92,78.40
+377,7,23,Bike,0.12,0.84
+378,6,20,Licensed Cheese,3.93,23.58
+379,10,29,For repair Fresh Fish,9.26,92.60
+380,2,39,Unbranded Wooden Hat,6.36,12.72
+381,19,12,Mouse,6.42,121.98
+382,5,56,Refined Ball,6.30,31.50
+383,17,50,Fantastic Fish,9.59,163.03
+384,13,24,Plastic Pants,6.62,86.06
+385,11,9,Unbranded Wooden Keyboard,0.83,9.13
+386,12,22,Small Shirt,6.81,81.72
+387,13,5,Wooden Shoes,8.22,106.86
+388,11,21,Steel Car,9.18,100.98
+389,6,12,Mouse,6.42,38.52
+390,18,9,Unbranded Wooden Keyboard,0.83,14.94
+391,12,40,Cotton Ball,6.59,79.08
+392,14,52,Rubber Towels,4.72,66.08
+393,15,32,Tasty Pizza,4.15,62.25
+394,5,40,Cotton Ball,6.59,32.95
+395,1,53,Ergonomic Cheese,5.01,5.01
+396,1,27,Table,2.67,2.67
+397,3,21,Steel Car,9.18,27.54
+398,2,3,Sausages,5.42,10.84
+399,11,35,Practical Fish,8.83,97.13
+400,3,32,Tasty Pizza,4.15,12.45
+401,19,49,Steel Sausages,5.35,101.65
+403,14,27,Table,2.67,37.38
+404,1,18,Shirt,0.23,0.23
+405,1,57,New Fresh Chips,7.73,7.73
+406,20,27,Table,2.67,53.40
+407,9,59,Ball,8.45,76.05
+408,11,26,Unbranded Chicken,4.86,53.46
+409,4,15,Small Fish,1.34,5.36
+410,8,57,New Fresh Chips,7.73,61.84
+411,5,28,Concrete Gloves,5.71,28.55
+412,20,54,Licensed Plastic Bike,9.30,186.00
+413,11,49,Steel Sausages,5.35,58.85
+414,20,32,Tasty Pizza,4.15,83.00
+415,12,32,Tasty Pizza,4.15,49.80
+416,7,44,Practical Tuna,1.00,7.00
+417,18,50,Fantastic Fish,9.59,172.62
+418,19,17,Fantastic Sausages,8.10,153.90
+419,2,6,Cotton Bike,8.34,16.68
+420,19,37,Frozen Computer,2.26,42.94
+421,6,21,Steel Car,9.18,55.08
+422,10,41,Practical Steel Towels,4.49,44.90
+423,12,36,Sleek Concrete Cheese,3.92,47.04
+424,6,47,Tuna,9.72,58.32
+425,8,15,Small Fish,1.34,10.72
+426,13,30,Refined Cotton Sausages,3.78,49.14
+427,12,29,For repair Fresh Fish,9.26,111.12
+428,3,59,Ball,8.45,25.35
+429,11,13,Soft Pizza,1.81,19.91
+430,13,33,Steel Computer,7.42,96.46
+431,6,18,Shirt,0.23,1.38
+432,17,37,Frozen Computer,2.26,38.42
+433,17,55,Chair,3.62,61.54
+434,17,18,Shirt,0.23,3.91
+435,1,34,Concrete Pants,8.52,8.52
+436,1,20,Licensed Cheese,3.93,3.93
+437,7,37,Frozen Computer,2.26,15.82
+438,17,37,Frozen Computer,2.26,38.42
+439,5,21,Steel Car,9.18,45.90
+440,4,37,Frozen Computer,2.26,9.04
+441,17,51,Pants,9.89,168.13
+442,19,12,Mouse,6.42,121.98
+443,18,10,Cotton Sausages,9.89,178.02
+444,6,4,Ergonomic Wooden Soap,8.99,53.94
+445,3,11,Shoes,7.13,21.39
+446,5,41,Practical Steel Towels,4.49,22.45
+447,9,22,Small Shirt,6.81,61.29
+448,18,20,Licensed Cheese,3.93,70.74
+449,9,13,Soft Pizza,1.81,16.29
+450,8,2,For repair Soft Table,5.19,41.52
+451,7,4,Ergonomic Wooden Soap,8.99,62.93
+452,12,29,For repair Fresh Fish,9.26,111.12
+453,4,1,Fantastic Shoes,2.25,9.00
+454,14,26,Unbranded Chicken,4.86,68.04
+455,14,10,Cotton Sausages,9.89,138.46
+456,9,53,Ergonomic Cheese,5.01,45.09
+457,11,24,Plastic Pants,6.62,72.82
+458,6,14,Handcrafted Hat,3.55,21.30
+459,20,51,Pants,9.89,197.80
+460,8,53,Ergonomic Cheese,5.01,40.08
+461,4,33,Steel Computer,7.42,29.68
+462,17,56,Refined Ball,6.30,107.10
+463,4,56,Refined Ball,6.30,25.20
+464,9,40,Cotton Ball,6.59,59.31
+465,10,31,Steel Mouse,1.24,12.40
+466,1,30,Refined Cotton Sausages,3.78,3.78
+467,20,36,Sleek Concrete Cheese,3.92,78.40
+468,16,11,Shoes,7.13,114.08
+469,16,5,Wooden Shoes,8.22,131.52
+470,20,44,Practical Tuna,1.00,20.00
+471,13,8,Concrete Cheese,1.46,18.98
+472,2,42,Mouse,9.46,18.92
+473,20,39,Unbranded Wooden Hat,6.36,127.20
+474,17,7,Sleek Granite Car,9.03,153.51
+475,20,17,Fantastic Sausages,8.10,162.00
+476,14,34,Concrete Pants,8.52,119.28
+477,16,30,Refined Cotton Sausages,3.78,60.48
+478,16,24,Plastic Pants,6.62,105.92
+479,14,30,Refined Cotton Sausages,3.78,52.92
+480,11,40,Cotton Ball,6.59,72.49
+481,19,29,For repair Fresh Fish,9.26,175.94
+482,3,40,Cotton Ball,6.59,19.77
+483,5,14,Handcrafted Hat,3.55,17.75
+484,4,30,Refined Cotton Sausages,3.78,15.12
+485,17,3,Sausages,5.42,92.14
+486,2,16,Gorgeous Salad,9.85,19.70
+487,3,29,For repair Fresh Fish,9.26,27.78
+488,6,28,Concrete Gloves,5.71,34.26
+489,7,15,Small Fish,1.34,9.38
+490,12,20,Licensed Cheese,3.93,47.16
+491,8,40,Cotton Ball,6.59,52.72
+492,10,6,Cotton Bike,8.34,83.40
+493,1,16,Gorgeous Salad,9.85,9.85
+494,17,5,Wooden Shoes,8.22,139.74
+495,7,7,Sleek Granite Car,9.03,63.21
+497,18,35,Practical Fish,8.83,158.94
+498,3,55,Chair,3.62,10.86
+500,15,13,Soft Pizza,1.81,27.15
+501,1,30,Refined Cotton Sausages,3.78,3.78
+502,16,9,Unbranded Wooden Keyboard,0.83,13.28
+503,13,36,Sleek Concrete Cheese,3.92,50.96
+504,5,33,Steel Computer,7.42,37.10
+505,11,29,For repair Fresh Fish,9.26,101.86
+506,15,42,Mouse,9.46,141.90
+507,6,5,Wooden Shoes,8.22,49.32
+509,10,8,Concrete Cheese,1.46,14.60
+510,2,24,Plastic Pants,6.62,13.24
+511,3,18,Shirt,0.23,0.69
+512,11,22,Small Shirt,6.81,74.91
+513,5,24,Plastic Pants,6.62,33.10
+514,1,5,Wooden Shoes,8.22,8.22
+515,12,22,Small Shirt,6.81,81.72
+516,8,51,Pants,9.89,79.12
+517,14,54,Licensed Plastic Bike,9.30,130.20
+518,17,41,Practical Steel Towels,4.49,76.33
+519,12,4,Ergonomic Wooden Soap,8.99,107.88
+520,16,39,Unbranded Wooden Hat,6.36,101.76
+521,6,47,Tuna,9.72,58.32
+522,2,53,Ergonomic Cheese,5.01,10.02
+523,2,52,Rubber Towels,4.72,9.44
+524,2,10,Cotton Sausages,9.89,19.78
+525,12,27,Table,2.67,32.04
+526,14,7,Sleek Granite Car,9.03,126.42
+527,6,11,Shoes,7.13,42.78
+528,20,58,Intelligent Chips,7.69,153.80
+529,10,58,Intelligent Chips,7.69,76.90
+530,16,56,Refined Ball,6.30,100.80
+531,17,19,Hat,6.92,117.64
+532,13,11,Shoes,7.13,92.69
+533,6,28,Concrete Gloves,5.71,34.26
+534,10,8,Concrete Cheese,1.46,14.60
+535,16,28,Concrete Gloves,5.71,91.36
+536,8,15,Small Fish,1.34,10.72
+537,5,33,Steel Computer,7.42,37.10
+538,7,26,Unbranded Chicken,4.86,34.02
+539,14,21,Steel Car,9.18,128.52
+540,8,6,Cotton Bike,8.34,66.72
+541,1,9,Unbranded Wooden Keyboard,0.83,0.83
+542,18,35,Practical Fish,8.83,158.94
+543,7,3,Sausages,5.42,37.94
+544,14,48,Rubber Mouse,7.85,109.90
+545,13,22,Small Shirt,6.81,88.53
+546,7,10,Cotton Sausages,9.89,69.23
+547,11,29,For repair Fresh Fish,9.26,101.86
+548,1,25,Incredible Hat,1.92,1.92
+549,9,22,Small Shirt,6.81,61.29
+550,8,7,Sleek Granite Car,9.03,72.24
+551,4,10,Cotton Sausages,9.89,39.56
+552,15,52,Rubber Towels,4.72,70.80
+553,20,53,Ergonomic Cheese,5.01,100.20
+554,14,58,Intelligent Chips,7.69,107.66
+555,13,4,Ergonomic Wooden Soap,8.99,116.87
+556,11,46,Sausages,3.79,41.69
+557,2,17,Fantastic Sausages,8.10,16.20
+558,13,25,Incredible Hat,1.92,24.96
+559,14,11,Shoes,7.13,99.82
+560,16,56,Refined Ball,6.30,100.80
+561,20,50,Fantastic Fish,9.59,191.80
+562,14,17,Fantastic Sausages,8.10,113.40
+563,9,38,Wooden Mouse,5.04,45.36
+564,12,31,Steel Mouse,1.24,14.88
+565,3,46,Sausages,3.79,11.37
+566,11,11,Shoes,7.13,78.43
+567,15,47,Tuna,9.72,145.80
+568,19,42,Mouse,9.46,179.74
+569,13,25,Incredible Hat,1.92,24.96
+570,17,25,Incredible Hat,1.92,32.64
+571,2,36,Sleek Concrete Cheese,3.92,7.84
+572,18,55,Chair,3.62,65.16
+573,15,16,Gorgeous Salad,9.85,147.75
+574,5,37,Frozen Computer,2.26,11.30
+575,3,25,Incredible Hat,1.92,5.76
+576,16,56,Refined Ball,6.30,100.80
+578,18,55,Chair,3.62,65.16
+579,14,26,Unbranded Chicken,4.86,68.04
+580,20,1,Fantastic Shoes,2.25,45.00
+581,11,11,Shoes,7.13,78.43
+582,8,8,Concrete Cheese,1.46,11.68
+583,20,44,Practical Tuna,1.00,20.00
+584,14,2,For repair Soft Table,5.19,72.66
+585,5,34,Concrete Pants,8.52,42.60
+586,1,43,Salad,0.53,0.53
+587,9,27,Table,2.67,24.03
+588,1,37,Frozen Computer,2.26,2.26
+589,7,39,Unbranded Wooden Hat,6.36,44.52
+590,20,10,Cotton Sausages,9.89,197.80
+591,16,48,Rubber Mouse,7.85,125.60
+592,10,15,Small Fish,1.34,13.40
+593,13,2,For repair Soft Table,5.19,67.47
+594,13,57,New Fresh Chips,7.73,100.49
+595,4,40,Cotton Ball,6.59,26.36
+596,19,2,For repair Soft Table,5.19,98.61
+597,13,5,Wooden Shoes,8.22,106.86
+598,19,48,Rubber Mouse,7.85,149.15
+599,14,53,Ergonomic Cheese,5.01,70.14
+600,14,2,For repair Soft Table,5.19,72.66
+601,7,31,Steel Mouse,1.24,8.68
+602,10,11,Shoes,7.13,71.30
+603,16,13,Soft Pizza,1.81,28.96
+604,15,49,Steel Sausages,5.35,80.25
+605,11,32,Tasty Pizza,4.15,45.65
+606,5,22,Small Shirt,6.81,34.05
+607,14,9,Unbranded Wooden Keyboard,0.83,11.62
+609,9,15,Small Fish,1.34,12.06
+610,15,27,Table,2.67,40.05
+611,15,58,Intelligent Chips,7.69,115.35
+612,7,27,Table,2.67,18.69
+613,2,6,Cotton Bike,8.34,16.68
+614,16,3,Sausages,5.42,86.72
+615,15,2,For repair Soft Table,5.19,77.85
+616,10,9,Unbranded Wooden Keyboard,0.83,8.30
+617,15,57,New Fresh Chips,7.73,115.95
+618,16,26,Unbranded Chicken,4.86,77.76
+619,15,41,Practical Steel Towels,4.49,67.35
+620,11,18,Shirt,0.23,2.53
+621,9,44,Practical Tuna,1.00,9.00
+622,1,49,Steel Sausages,5.35,5.35
+623,19,32,Tasty Pizza,4.15,78.85
+624,13,18,Shirt,0.23,2.99
+625,17,24,Plastic Pants,6.62,112.54
+626,3,52,Rubber Towels,4.72,14.16
+627,15,11,Shoes,7.13,106.95
+628,11,53,Ergonomic Cheese,5.01,55.11
+629,16,38,Wooden Mouse,5.04,80.64
+630,9,17,Fantastic Sausages,8.10,72.90
+631,12,46,Sausages,3.79,45.48
+632,8,25,Incredible Hat,1.92,15.36
+633,8,56,Refined Ball,6.30,50.40
+634,8,22,Small Shirt,6.81,54.48
+635,6,24,Plastic Pants,6.62,39.72
+636,17,55,Chair,3.62,61.54
+637,16,6,Cotton Bike,8.34,133.44
+638,2,41,Practical Steel Towels,4.49,8.98
+639,15,32,Tasty Pizza,4.15,62.25
+640,17,23,Bike,0.12,2.04
+641,14,21,Steel Car,9.18,128.52
+642,11,29,For repair Fresh Fish,9.26,101.86
+643,20,11,Shoes,7.13,142.60
+644,11,9,Unbranded Wooden Keyboard,0.83,9.13
+645,4,23,Bike,0.12,0.48
+646,13,52,Rubber Towels,4.72,61.36
+647,4,32,Tasty Pizza,4.15,16.60
+648,9,55,Chair,3.62,32.58
+649,19,19,Hat,6.92,131.48
+650,10,21,Steel Car,9.18,91.80
+651,15,40,Cotton Ball,6.59,98.85
+652,2,10,Cotton Sausages,9.89,19.78
+653,10,1,Fantastic Shoes,2.25,22.50
+654,11,21,Steel Car,9.18,100.98
+655,6,41,Practical Steel Towels,4.49,26.94
+656,13,32,Tasty Pizza,4.15,53.95
+657,10,33,Steel Computer,7.42,74.20
+658,12,57,New Fresh Chips,7.73,92.76
+659,11,3,Sausages,5.42,59.62
+660,20,8,Concrete Cheese,1.46,29.20
+661,13,1,Fantastic Shoes,2.25,29.25
+662,13,28,Concrete Gloves,5.71,74.23
+663,19,57,New Fresh Chips,7.73,146.87
+664,14,53,Ergonomic Cheese,5.01,70.14
+665,14,58,Intelligent Chips,7.69,107.66
+666,14,48,Rubber Mouse,7.85,109.90
+667,19,44,Practical Tuna,1.00,19.00
+668,3,12,Mouse,6.42,19.26
+669,6,48,Rubber Mouse,7.85,47.10
+670,17,55,Chair,3.62,61.54
+671,5,15,Small Fish,1.34,6.70
+672,6,15,Small Fish,1.34,8.04
+673,12,13,Soft Pizza,1.81,21.72
+674,4,44,Practical Tuna,1.00,4.00
+675,6,15,Small Fish,1.34,8.04
+676,18,25,Incredible Hat,1.92,34.56
+678,15,31,Steel Mouse,1.24,18.60
+679,12,45,Handcrafted Wooden Fish,8.95,107.40
+680,19,52,Rubber Towels,4.72,89.68
+681,18,20,Licensed Cheese,3.93,70.74
+682,18,41,Practical Steel Towels,4.49,80.82
+683,9,6,Cotton Bike,8.34,75.06
+684,10,41,Practical Steel Towels,4.49,44.90
+685,9,25,Incredible Hat,1.92,17.28
+686,4,17,Fantastic Sausages,8.10,32.40
+687,12,16,Gorgeous Salad,9.85,118.20
+688,11,52,Rubber Towels,4.72,51.92
+689,19,6,Cotton Bike,8.34,158.46
+690,1,51,Pants,9.89,9.89
+691,4,18,Shirt,0.23,0.92
+692,7,29,For repair Fresh Fish,9.26,64.82
+693,18,2,For repair Soft Table,5.19,93.42
+694,1,30,Refined Cotton Sausages,3.78,3.78
+695,20,53,Ergonomic Cheese,5.01,100.20
+696,8,48,Rubber Mouse,7.85,62.80
+697,10,6,Cotton Bike,8.34,83.40
+698,16,13,Soft Pizza,1.81,28.96
+699,7,50,Fantastic Fish,9.59,67.13
+700,5,3,Sausages,5.42,27.10
+701,17,33,Steel Computer,7.42,126.14
+702,6,37,Frozen Computer,2.26,13.56
+703,15,52,Rubber Towels,4.72,70.80
+704,5,38,Wooden Mouse,5.04,25.20
+705,15,24,Plastic Pants,6.62,99.30
+706,14,47,Tuna,9.72,136.08
+707,9,51,Pants,9.89,89.01
+708,18,20,Licensed Cheese,3.93,70.74
+709,4,4,Ergonomic Wooden Soap,8.99,35.96
+710,4,11,Shoes,7.13,28.52
+711,20,54,Licensed Plastic Bike,9.30,186.00
+712,11,15,Small Fish,1.34,14.74
+713,13,19,Hat,6.92,89.96
+714,11,17,Fantastic Sausages,8.10,89.10
+715,14,17,Fantastic Sausages,8.10,113.40
+716,14,5,Wooden Shoes,8.22,115.08
+717,13,4,Ergonomic Wooden Soap,8.99,116.87
+718,5,41,Practical Steel Towels,4.49,22.45
+719,18,55,Chair,3.62,65.16
+720,18,58,Intelligent Chips,7.69,138.42
+721,15,50,Fantastic Fish,9.59,143.85
+722,5,3,Sausages,5.42,27.10
+723,1,17,Fantastic Sausages,8.10,8.10
+724,19,55,Chair,3.62,68.78
+725,20,3,Sausages,5.42,108.40
+726,5,52,Rubber Towels,4.72,23.60
+727,4,45,Handcrafted Wooden Fish,8.95,35.80
+728,6,19,Hat,6.92,41.52
+729,17,13,Soft Pizza,1.81,30.77
+730,4,55,Chair,3.62,14.48
+731,8,58,Intelligent Chips,7.69,61.52
+732,7,3,Sausages,5.42,37.94
+733,3,22,Small Shirt,6.81,20.43
+734,6,31,Steel Mouse,1.24,7.44
+735,10,30,Refined Cotton Sausages,3.78,37.80
+736,18,10,Cotton Sausages,9.89,178.02
+737,2,45,Handcrafted Wooden Fish,8.95,17.90
+738,14,56,Refined Ball,6.30,88.20
+739,7,51,Pants,9.89,69.23
+740,3,42,Mouse,9.46,28.38
+741,3,57,New Fresh Chips,7.73,23.19
+742,9,40,Cotton Ball,6.59,59.31
+743,19,9,Unbranded Wooden Keyboard,0.83,15.77
+744,4,19,Hat,6.92,27.68
+745,11,50,Fantastic Fish,9.59,105.49
+746,11,15,Small Fish,1.34,14.74
+747,11,9,Unbranded Wooden Keyboard,0.83,9.13
+748,11,48,Rubber Mouse,7.85,86.35
+750,11,6,Cotton Bike,8.34,91.74
+751,16,19,Hat,6.92,110.72
+752,11,39,Unbranded Wooden Hat,6.36,69.96
+753,9,31,Steel Mouse,1.24,11.16
+754,3,56,Refined Ball,6.30,18.90
+755,17,26,Unbranded Chicken,4.86,82.62
+756,19,3,Sausages,5.42,102.98
+757,4,24,Plastic Pants,6.62,26.48
+758,12,57,New Fresh Chips,7.73,92.76
+759,2,13,Soft Pizza,1.81,3.62
+760,16,31,Steel Mouse,1.24,19.84
+761,15,11,Shoes,7.13,106.95
+762,12,24,Plastic Pants,6.62,79.44
+763,15,49,Steel Sausages,5.35,80.25
+764,11,8,Concrete Cheese,1.46,16.06
+765,17,36,Sleek Concrete Cheese,3.92,66.64
+766,8,37,Frozen Computer,2.26,18.08
+767,11,9,Unbranded Wooden Keyboard,0.83,9.13
+768,10,22,Small Shirt,6.81,68.10
+769,19,23,Bike,0.12,2.28
+770,15,14,Handcrafted Hat,3.55,53.25
+771,13,4,Ergonomic Wooden Soap,8.99,116.87
+772,13,46,Sausages,3.79,49.27
+773,16,14,Handcrafted Hat,3.55,56.80
+774,20,52,Rubber Towels,4.72,94.40
+775,10,31,Steel Mouse,1.24,12.40
+776,1,32,Tasty Pizza,4.15,4.15
+777,20,12,Mouse,6.42,128.40
+778,11,39,Unbranded Wooden Hat,6.36,69.96
+779,14,31,Steel Mouse,1.24,17.36
+780,8,18,Shirt,0.23,1.84
+781,9,40,Cotton Ball,6.59,59.31
+782,8,24,Plastic Pants,6.62,52.96
+783,7,37,Frozen Computer,2.26,15.82
+785,17,20,Licensed Cheese,3.93,66.81
+786,11,48,Rubber Mouse,7.85,86.35
+787,18,29,For repair Fresh Fish,9.26,166.68
+788,13,27,Table,2.67,34.71
+789,15,4,Ergonomic Wooden Soap,8.99,134.85
+790,5,10,Cotton Sausages,9.89,49.45
+791,6,10,Cotton Sausages,9.89,59.34
+792,5,58,Intelligent Chips,7.69,38.45
+793,17,1,Fantastic Shoes,2.25,38.25
+794,11,51,Pants,9.89,108.79
+795,8,19,Hat,6.92,55.36
+796,1,17,Fantastic Sausages,8.10,8.10
+797,11,13,Soft Pizza,1.81,19.91
+798,7,45,Handcrafted Wooden Fish,8.95,62.65
+799,20,7,Sleek Granite Car,9.03,180.60
+800,12,6,Cotton Bike,8.34,100.08
+801,18,34,Concrete Pants,8.52,153.36
+802,14,38,Wooden Mouse,5.04,70.56
+803,15,19,Hat,6.92,103.80
+804,14,17,Fantastic Sausages,8.10,113.40
+805,18,56,Refined Ball,6.30,113.40
+806,4,10,Cotton Sausages,9.89,39.56
+807,15,26,Unbranded Chicken,4.86,72.90
+808,1,27,Table,2.67,2.67
+809,9,12,Mouse,6.42,57.78
+810,3,1,Fantastic Shoes,2.25,6.75
+811,13,35,Practical Fish,8.83,114.79
+812,19,52,Rubber Towels,4.72,89.68
+813,16,25,Incredible Hat,1.92,30.72
+814,20,32,Tasty Pizza,4.15,83.00
+815,19,39,Unbranded Wooden Hat,6.36,120.84
+816,8,42,Mouse,9.46,75.68
+817,7,21,Steel Car,9.18,64.26
+818,2,46,Sausages,3.79,7.58
+819,18,58,Intelligent Chips,7.69,138.42
+820,5,45,Handcrafted Wooden Fish,8.95,44.75
+821,13,49,Steel Sausages,5.35,69.55
+822,6,11,Shoes,7.13,42.78
+823,8,44,Practical Tuna,1.00,8.00
+824,1,58,Intelligent Chips,7.69,7.69
+825,3,9,Unbranded Wooden Keyboard,0.83,2.49
+826,14,11,Shoes,7.13,99.82
+827,2,42,Mouse,9.46,18.92
+828,3,27,Table,2.67,8.01
+829,11,57,New Fresh Chips,7.73,85.03
+830,8,43,Salad,0.53,4.24
+831,18,14,Handcrafted Hat,3.55,63.90
+832,19,37,Frozen Computer,2.26,42.94
+833,5,18,Shirt,0.23,1.15
+834,16,5,Wooden Shoes,8.22,131.52
+835,3,55,Chair,3.62,10.86
+836,14,9,Unbranded Wooden Keyboard,0.83,11.62
+837,12,40,Cotton Ball,6.59,79.08
+838,8,40,Cotton Ball,6.59,52.72
+839,3,45,Handcrafted Wooden Fish,8.95,26.85
+840,17,11,Shoes,7.13,121.21
+841,14,51,Pants,9.89,138.46
+842,14,53,Ergonomic Cheese,5.01,70.14
+843,16,39,Unbranded Wooden Hat,6.36,101.76
+844,15,59,Ball,8.45,126.75
+845,18,35,Practical Fish,8.83,158.94
+846,6,12,Mouse,6.42,38.52
+847,11,52,Rubber Towels,4.72,51.92
+848,14,7,Sleek Granite Car,9.03,126.42
+849,5,58,Intelligent Chips,7.69,38.45
+850,6,43,Salad,0.53,3.18
+851,19,12,Mouse,6.42,121.98
+852,9,20,Licensed Cheese,3.93,35.37
+853,12,21,Steel Car,9.18,110.16
+854,4,38,Wooden Mouse,5.04,20.16
+855,9,37,Frozen Computer,2.26,20.34
+856,3,57,New Fresh Chips,7.73,23.19
+857,20,59,Ball,8.45,169.00
+858,16,33,Steel Computer,7.42,118.72
+859,7,19,Hat,6.92,48.44
+860,17,4,Ergonomic Wooden Soap,8.99,152.83
+861,4,39,Unbranded Wooden Hat,6.36,25.44
+862,14,46,Sausages,3.79,53.06
+863,7,10,Cotton Sausages,9.89,69.23
+864,9,26,Unbranded Chicken,4.86,43.74
+865,7,52,Rubber Towels,4.72,33.04
+866,15,9,Unbranded Wooden Keyboard,0.83,12.45
+867,12,28,Concrete Gloves,5.71,68.52
+868,14,6,Cotton Bike,8.34,116.76
+869,6,11,Shoes,7.13,42.78
+870,20,10,Cotton Sausages,9.89,197.80
+871,20,6,Cotton Bike,8.34,166.80
+872,3,18,Shirt,0.23,0.69
+873,13,43,Salad,0.53,6.89
+874,16,26,Unbranded Chicken,4.86,77.76
+875,4,25,Incredible Hat,1.92,7.68
+876,1,12,Mouse,6.42,6.42
+877,9,1,Fantastic Shoes,2.25,20.25
+878,1,38,Wooden Mouse,5.04,5.04
+879,12,42,Mouse,9.46,113.52
+880,9,55,Chair,3.62,32.58
+881,13,1,Fantastic Shoes,2.25,29.25
+882,7,50,Fantastic Fish,9.59,67.13
+883,20,40,Cotton Ball,6.59,131.80
+884,20,1,Fantastic Shoes,2.25,45.00
+885,3,14,Handcrafted Hat,3.55,10.65
+886,12,44,Practical Tuna,1.00,12.00
+887,9,12,Mouse,6.42,57.78
+888,2,26,Unbranded Chicken,4.86,9.72
+889,15,24,Plastic Pants,6.62,99.30
+890,3,25,Incredible Hat,1.92,5.76
+891,5,32,Tasty Pizza,4.15,20.75
+892,8,59,Ball,8.45,67.60
+893,14,33,Steel Computer,7.42,103.88
+894,16,54,Licensed Plastic Bike,9.30,148.80
+895,15,14,Handcrafted Hat,3.55,53.25
+896,18,44,Practical Tuna,1.00,18.00
+897,11,29,For repair Fresh Fish,9.26,101.86
+898,19,51,Pants,9.89,187.91
+899,15,44,Practical Tuna,1.00,15.00
+900,6,19,Hat,6.92,41.52
+901,12,52,Rubber Towels,4.72,56.64
+902,19,37,Frozen Computer,2.26,42.94
+903,10,2,For repair Soft Table,5.19,51.90
+904,6,13,Soft Pizza,1.81,10.86
+905,7,57,New Fresh Chips,7.73,54.11
+906,13,58,Intelligent Chips,7.69,99.97
+907,6,26,Unbranded Chicken,4.86,29.16
+908,11,6,Cotton Bike,8.34,91.74
+909,13,30,Refined Cotton Sausages,3.78,49.14
+910,13,14,Handcrafted Hat,3.55,46.15
+911,2,28,Concrete Gloves,5.71,11.42
+912,2,38,Wooden Mouse,5.04,10.08
+913,3,45,Handcrafted Wooden Fish,8.95,26.85
+914,16,36,Sleek Concrete Cheese,3.92,62.72
+915,17,29,For repair Fresh Fish,9.26,157.42
+916,20,16,Gorgeous Salad,9.85,197.00
+917,13,10,Cotton Sausages,9.89,128.57
+918,10,53,Ergonomic Cheese,5.01,50.10
+919,18,2,For repair Soft Table,5.19,93.42
+921,7,39,Unbranded Wooden Hat,6.36,44.52
+922,20,54,Licensed Plastic Bike,9.30,186.00
+923,15,12,Mouse,6.42,96.30
+924,8,5,Wooden Shoes,8.22,65.76
+925,13,14,Handcrafted Hat,3.55,46.15
+926,20,16,Gorgeous Salad,9.85,197.00
+927,10,7,Sleek Granite Car,9.03,90.30
+928,19,17,Fantastic Sausages,8.10,153.90
+929,15,25,Incredible Hat,1.92,28.80
+930,14,14,Handcrafted Hat,3.55,49.70
+931,19,50,Fantastic Fish,9.59,182.21
+932,20,26,Unbranded Chicken,4.86,97.20
+933,1,8,Concrete Cheese,1.46,1.46
+934,19,25,Incredible Hat,1.92,36.48
+935,1,53,Ergonomic Cheese,5.01,5.01
+936,16,50,Fantastic Fish,9.59,153.44
+937,20,5,Wooden Shoes,8.22,164.40
+938,3,15,Small Fish,1.34,4.02
+939,16,49,Steel Sausages,5.35,85.60
+940,6,4,Ergonomic Wooden Soap,8.99,53.94
+941,11,13,Soft Pizza,1.81,19.91
+942,6,2,For repair Soft Table,5.19,31.14
+943,9,55,Chair,3.62,32.58
+944,13,37,Frozen Computer,2.26,29.38
+945,7,55,Chair,3.62,25.34
+946,11,35,Practical Fish,8.83,97.13
+947,6,8,Concrete Cheese,1.46,8.76
+948,18,29,For repair Fresh Fish,9.26,166.68
+949,15,11,Shoes,7.13,106.95
+950,18,7,Sleek Granite Car,9.03,162.54
+951,5,38,Wooden Mouse,5.04,25.20
+952,20,43,Salad,0.53,10.60
+953,7,21,Steel Car,9.18,64.26
+954,11,35,Practical Fish,8.83,97.13
+955,17,21,Steel Car,9.18,156.06
+956,15,55,Chair,3.62,54.30
+957,10,23,Bike,0.12,1.20
+958,12,28,Concrete Gloves,5.71,68.52
+959,19,54,Licensed Plastic Bike,9.30,176.70
+960,16,12,Mouse,6.42,102.72
+961,9,18,Shirt,0.23,2.07
+962,11,15,Small Fish,1.34,14.74
+963,15,10,Cotton Sausages,9.89,148.35
+964,8,30,Refined Cotton Sausages,3.78,30.24
+965,20,10,Cotton Sausages,9.89,197.80
+966,3,31,Steel Mouse,1.24,3.72
+967,10,13,Soft Pizza,1.81,18.10
+968,15,50,Fantastic Fish,9.59,143.85
+969,8,19,Hat,6.92,55.36
+970,2,24,Plastic Pants,6.62,13.24
+971,16,26,Unbranded Chicken,4.86,77.76
+972,5,9,Unbranded Wooden Keyboard,0.83,4.15
+973,13,15,Small Fish,1.34,17.42
+974,19,39,Unbranded Wooden Hat,6.36,120.84
+975,10,58,Intelligent Chips,7.69,76.90
+976,17,37,Frozen Computer,2.26,38.42
+977,6,1,Fantastic Shoes,2.25,13.50
+978,3,38,Wooden Mouse,5.04,15.12
+979,9,27,Table,2.67,24.03
+980,19,19,Hat,6.92,131.48
+981,4,9,Unbranded Wooden Keyboard,0.83,3.32
+982,7,5,Wooden Shoes,8.22,57.54
+983,11,10,Cotton Sausages,9.89,108.79
+984,20,53,Ergonomic Cheese,5.01,100.20
+985,4,10,Cotton Sausages,9.89,39.56
+986,5,7,Sleek Granite Car,9.03,45.15
+987,12,6,Cotton Bike,8.34,100.08
+988,18,7,Sleek Granite Car,9.03,162.54
+989,16,15,Small Fish,1.34,21.44
+990,2,3,Sausages,5.42,10.84
+991,13,23,Bike,0.12,1.56
+992,12,48,Rubber Mouse,7.85,94.20
+993,1,57,New Fresh Chips,7.73,7.73
+994,7,31,Steel Mouse,1.24,8.68
+995,7,17,Fantastic Sausages,8.10,56.70
+996,4,14,Handcrafted Hat,3.55,14.20
+997,20,23,Bike,0.12,2.40
+998,1,57,New Fresh Chips,7.73,7.73
+999,3,17,Fantastic Sausages,8.10,24.30
+1000,20,4,Ergonomic Wooden Soap,8.99,179.80
+1002,13,20,Licensed Cheese,3.93,51.09
+1003,1,11,Shoes,7.13,7.13
+1004,3,5,Wooden Shoes,8.22,24.66
+1005,7,8,Concrete Cheese,1.46,10.22
+1006,11,26,Unbranded Chicken,4.86,53.46
+1007,9,48,Rubber Mouse,7.85,70.65
+1008,12,59,Ball,8.45,101.40
+1009,20,21,Steel Car,9.18,183.60
+1010,8,25,Incredible Hat,1.92,15.36
+1011,15,24,Plastic Pants,6.62,99.30
+1012,9,22,Small Shirt,6.81,61.29
+1013,6,34,Concrete Pants,8.52,51.12
+1014,9,2,For repair Soft Table,5.19,46.71
+1015,15,59,Ball,8.45,126.75
+1016,16,28,Concrete Gloves,5.71,91.36
+1017,10,17,Fantastic Sausages,8.10,81.00
+1018,2,16,Gorgeous Salad,9.85,19.70
+1019,5,31,Steel Mouse,1.24,6.20
+1020,19,31,Steel Mouse,1.24,23.56
+1021,12,58,Intelligent Chips,7.69,92.28
+1022,15,53,Ergonomic Cheese,5.01,75.15
+1023,17,5,Wooden Shoes,8.22,139.74
+1024,19,2,For repair Soft Table,5.19,98.61
+1025,7,38,Wooden Mouse,5.04,35.28
+1026,13,45,Handcrafted Wooden Fish,8.95,116.35
+1027,13,8,Concrete Cheese,1.46,18.98
+1028,1,45,Handcrafted Wooden Fish,8.95,8.95
+1029,13,38,Wooden Mouse,5.04,65.52
+1030,19,20,Licensed Cheese,3.93,74.67
+1031,20,15,Small Fish,1.34,26.80
+1032,11,44,Practical Tuna,1.00,11.00
+1033,15,50,Fantastic Fish,9.59,143.85
+1034,4,29,For repair Fresh Fish,9.26,37.04
+1036,4,56,Refined Ball,6.30,25.20
+1037,17,10,Cotton Sausages,9.89,168.13
+1038,18,30,Refined Cotton Sausages,3.78,68.04
+1039,19,2,For repair Soft Table,5.19,98.61
+1040,19,16,Gorgeous Salad,9.85,187.15
+1041,2,41,Practical Steel Towels,4.49,8.98
+1042,20,32,Tasty Pizza,4.15,83.00
+1043,1,48,Rubber Mouse,7.85,7.85
+1044,4,31,Steel Mouse,1.24,4.96
+1045,18,13,Soft Pizza,1.81,32.58
+1046,18,14,Handcrafted Hat,3.55,63.90
+1047,2,40,Cotton Ball,6.59,13.18
+1048,14,19,Hat,6.92,96.88
+1049,13,11,Shoes,7.13,92.69
+1050,11,36,Sleek Concrete Cheese,3.92,43.12
+1051,7,32,Tasty Pizza,4.15,29.05
+1052,12,42,Mouse,9.46,113.52
+1053,20,34,Concrete Pants,8.52,170.40
+1054,1,56,Refined Ball,6.30,6.30
+1055,2,22,Small Shirt,6.81,13.62
+1056,7,56,Refined Ball,6.30,44.10
+1057,3,26,Unbranded Chicken,4.86,14.58
+1058,10,25,Incredible Hat,1.92,19.20
+1059,10,2,For repair Soft Table,5.19,51.90
+1060,14,50,Fantastic Fish,9.59,134.26
+1061,2,36,Sleek Concrete Cheese,3.92,7.84
+1062,18,55,Chair,3.62,65.16
+1063,4,47,Tuna,9.72,38.88
+1064,4,14,Handcrafted Hat,3.55,14.20
+1065,11,10,Cotton Sausages,9.89,108.79
+1066,9,46,Sausages,3.79,34.11
+1067,12,43,Salad,0.53,6.36
+1068,8,38,Wooden Mouse,5.04,40.32
+1069,12,18,Shirt,0.23,2.76
+1070,20,7,Sleek Granite Car,9.03,180.60
+1071,10,45,Handcrafted Wooden Fish,8.95,89.50
+1072,16,6,Cotton Bike,8.34,133.44
+1073,1,17,Fantastic Sausages,8.10,8.10
+1074,5,50,Fantastic Fish,9.59,47.95
+1075,18,29,For repair Fresh Fish,9.26,166.68
+1076,6,49,Steel Sausages,5.35,32.10
+1077,12,37,Frozen Computer,2.26,27.12
+1078,10,21,Steel Car,9.18,91.80
+1079,8,36,Sleek Concrete Cheese,3.92,31.36
+1080,9,12,Mouse,6.42,57.78
+1081,4,45,Handcrafted Wooden Fish,8.95,35.80
+1082,18,1,Fantastic Shoes,2.25,40.50
+1083,17,47,Tuna,9.72,165.24
+1084,5,58,Intelligent Chips,7.69,38.45
+1085,15,8,Concrete Cheese,1.46,21.90
+1086,9,6,Cotton Bike,8.34,75.06
+1087,19,2,For repair Soft Table,5.19,98.61
+1088,18,15,Small Fish,1.34,24.12
+1089,12,53,Ergonomic Cheese,5.01,60.12
+1090,20,10,Cotton Sausages,9.89,197.80
+1091,6,34,Concrete Pants,8.52,51.12
+1092,11,50,Fantastic Fish,9.59,105.49
+1093,6,35,Practical Fish,8.83,52.98
+1094,14,45,Handcrafted Wooden Fish,8.95,125.30
+1095,4,57,New Fresh Chips,7.73,30.92
+1096,1,54,Licensed Plastic Bike,9.30,9.30
+1097,3,16,Gorgeous Salad,9.85,29.55
+1098,5,4,Ergonomic Wooden Soap,8.99,44.95
+1099,4,16,Gorgeous Salad,9.85,39.40
+1100,18,46,Sausages,3.79,68.22
+1101,3,7,Sleek Granite Car,9.03,27.09
+1102,16,15,Small Fish,1.34,21.44
+1103,3,23,Bike,0.12,0.36
+1104,6,5,Wooden Shoes,8.22,49.32
+1105,18,35,Practical Fish,8.83,158.94
+1106,14,14,Handcrafted Hat,3.55,49.70
+1107,6,2,For repair Soft Table,5.19,31.14
+1108,19,6,Cotton Bike,8.34,158.46
+1109,1,46,Sausages,3.79,3.79
+1110,10,23,Bike,0.12,1.20
+1111,10,18,Shirt,0.23,2.30
+1112,10,43,Salad,0.53,5.30
+1113,10,9,Unbranded Wooden Keyboard,0.83,8.30
+1114,10,44,Practical Tuna,1.00,10.00
+1115,10,23,Bike,0.12,1.20
+1116,10,18,Shirt,0.23,2.30
+1117,10,43,Salad,0.53,5.30
+1118,10,9,Unbranded Wooden Keyboard,0.83,8.30
+1119,10,44,Practical Tuna,1.00,10.00
+1120,10,23,Bike,0.12,1.20
+1121,10,18,Shirt,0.23,2.30
+1122,10,43,Salad,0.53,5.30
+1123,10,9,Unbranded Wooden Keyboard,0.83,8.30
+1124,10,44,Practical Tuna,1.00,10.00
+1125,10,23,Bike,0.12,1.20
+1126,10,18,Shirt,0.23,2.30
+1127,10,43,Salad,0.53,5.30
+1128,10,9,Unbranded Wooden Keyboard,0.83,8.30
+1129,10,44,Practical Tuna,1.00,10.00
+1130,10,23,Bike,0.12,1.20
+1131,10,18,Shirt,0.23,2.30
+1132,10,43,Salad,0.53,5.30
+1133,10,9,Unbranded Wooden Keyboard,0.83,8.30
+1134,10,44,Practical Tuna,1.00,10.00
+1135,10,23,Bike,0.12,1.20
+1136,10,18,Shirt,0.23,2.30
+1137,10,43,Salad,0.53,5.30
+1138,10,9,Unbranded Wooden Keyboard,0.83,8.30
+1139,10,44,Practical Tuna,1.00,10.00
+1140,10,23,Bike,0.12,1.20
+1141,10,18,Shirt,0.23,2.30
+1142,10,43,Salad,0.53,5.30
+1143,10,9,Unbranded Wooden Keyboard,0.83,8.30
+1144,10,44,Practical Tuna,1.00,10.00
