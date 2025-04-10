@@ -2,7 +2,7 @@
 
 import sqlite3
 
-db_path = "./db/lesson.db"
+db_path = "../db/lesson.db"
 
 # Task 1: Understanding Subqueries
 # Query 1: Retrieve order details for the first 5 orders
